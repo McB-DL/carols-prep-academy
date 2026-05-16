@@ -1083,6 +1083,6 @@ footer a:hover {
 
 @media (max-width: 450px) {
     .valueWrapper {
-        margin-bottom: -2em;
+        margin-bottom: -2.1em;
     }
 }
