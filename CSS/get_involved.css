@@ -159,28 +159,26 @@ main {
     text-decoration: underline;
 }
 
-#menu button {
-    height: 3em;
-    align-items: flex-start;
-    border-radius: 30px;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-    margin-top: .5em;
-    transition-duration: .4s;
-    background-color: #012169;
-    border: 2px solid white;
-    border-radius: 20px;
-    transition: all .4s;
+#navctaBtn {
+    display: inline-block;
+    background: #012169;
     color: white;
+    padding: 0.8em 2em;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+    width: fit-content;
+    height: fit-content;
+    margin: .5em;
 }
 
-#menu button:hover {
-    cursor: pointer;
-    border: 3px solid #012169;
+#navctaBtn:hover {
     background-color: #d4edff;
     color: #012169;
+    border: 3px solid #012169;
     text-decoration: none;
-
 }
 
 #showmenu {
@@ -613,7 +611,7 @@ footer a:hover {
         display: none;
     }
 
-    #menu button {
+    #navctaBtn {
         display: none;
     }
 
@@ -621,12 +619,6 @@ footer a:hover {
         display: contents
     }
 }
-
-@media (max-width: 1096px) {}
-
-@media (max-width:1131px) {}
-
-@media (max-width:1000px) {}
 
 @media (max-width: 900px) {
     .gi-options-container {
