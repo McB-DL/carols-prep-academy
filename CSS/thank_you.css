@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+#thankyou {
+    background: #d4edff;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.thankyou-container {
+    max-width: 600px;
+    text-align: center;
+    background: white;
+    padding: 3em 2em;
+    border-radius: 12px;
+    box-shadow: 0 0.3em 1em rgba(0, 0, 0, 0.1);
+}
+
+#thankyou h1 {
+    font-size: 2.8rem;
+    color: #012169;
+    margin-bottom: 0.5em;
+}
+
+#thankyou p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1em;
+    line-height: 1.7;
+}
+
+.thankyou-btn {
+    display: inline-block;
+    background: #012169;
+    color: white;
+    padding: 0.8em 2em;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.thankyou-btn:hover {
+    background: #d4edff;
+    color: #012169;
+    border: 3px solid #012169;
+
+}
+
+.social-follow {
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+.social-follow p {
+    font-size: 1.2rem;
+    color: #012169;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.social-icons a {
+    color: #012169;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffb400;
+    transform: translateY(-3px);
+}
