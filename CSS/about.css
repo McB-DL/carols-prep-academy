@@ -915,4 +915,39 @@ footer a:hover {
     .valueWrapper {
         margin-bottom: -2.1em;
     }
+
+    #about-hero h1,
+    #missionvision h2,
+    #why h2,
+    #founding-story h2,
+    #approach h2,
+    #impact-report h2 {
+        font-size: 1.8rem;
+    }
+
+    #cta h2 {
+        font-size: 1.5rem;
+    }
+
+    .foot {
+        padding: .5em;
+    }
+
+    #foot3 ul,
+    #foot1 p,
+    #foot2 a,
+    #summary p,
+    #about-hero p,
+    #missionvision p,
+    #why p,
+    #founding-story p,
+    #approach p,
+    #impact-report p,
+    #cta p {
+        font-size: .8em;
+    }
+
+    #cta p {
+        text-align: justify;
+    }
 }

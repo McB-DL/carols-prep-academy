@@ -1085,4 +1085,75 @@ footer a:hover {
     .valueWrapper {
         margin-bottom: -2.1em;
     }
+
+    #productchoice,
+    #lgtsm p,
+    .support p,
+    .support a,
+    #carousel p,
+    #carousel a,
+    #accordionFlushExample button,
+    #learn p {
+        font-size: .7em;
+        line-height: 1.5em;
+        font-weight: 500;
+
+    }
+
+    #productchoice h1 {
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    #lgtsm h4,
+    .support h3,
+    #story h4 {
+        font-size: 1em;
+    }
+
+    .support {
+        height: 30vh;
+    }
+
+    #drop2 h1,
+    #carousel h2,
+    #learn h1 {
+        font-size: 1.5em;
+    }
+
+    #story h1,
+    #story a {
+        font-size: .9em;
+    }
+
+    .testimonial {
+        font-size: .8em;
+        padding-left: 0em;
+    }
+
+    #carousel,
+    .fact {
+        padding: .7em;
+    }
+
+    #cta {
+        margin: -2em 0em;
+    }
+
+    .ctaBtn {
+        font-size: .8em;
+    }
+
+    .foot {
+        padding: .5em;
+    }
+
+    #foot3 ul,
+    #foot1 p,
+    #foot2 a,
+    #summary p
+     {
+        font-size: .8em;
+        font-weight: 300;
+    }
 }

@@ -750,4 +750,27 @@ footer a:hover {
     .valueWrapper {
         margin-bottom: -2.1em;
     }
+
+    #contact-block h1,
+    #contact-form h2 {
+        font-size: 1.8rem;
+    }
+
+    #cta h2 {
+        font-size: 1.5rem;
+    }
+
+    .foot {
+        padding: .5em;
+    }
+
+    #foot3 ul,
+    #foot1 p,
+    #foot2 a,
+    #summary p,
+    #contact-block p,
+    #contact-form label {
+        font-size: .8em;
+    }
+
 }

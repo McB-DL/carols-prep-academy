@@ -728,4 +728,24 @@ footer a:hover {
     .valueWrapper {
         margin-bottom: -2.1em;
     }
+
+    #gi-hero h1,
+    .gi-card h3,
+    #gi-cta h2 {
+        font-size: 1.5rem;
+    }
+
+    .foot {
+        padding: .5em;
+    }
+
+    #foot3 ul,
+    #foot1 p,
+    #foot2 a,
+    #summary p,
+    #gi-hero p,
+    .gi-card p,
+    #gi-cta p {
+        font-size: .8em;
+    }
 }
