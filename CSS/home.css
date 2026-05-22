@@ -607,11 +607,8 @@ main {
     color: #012169;
 }
 
-#story h1 {
-    font-size: 2.5em;
+#story h2 {
     text-align: center;
-    margin-left: 1em;
-    margin-right: 1em;
     color: #012169;
 }
 
@@ -640,7 +637,7 @@ main {
     text-align: center;
     width: 100%;
     height: auto;
-    padding: 4em;
+    padding: 3em;
 }
 
 
@@ -654,6 +651,7 @@ main {
 #carousel h2 {
     font-size: 3em;
     font-weight: bold;
+    margin-bottom: .5em;
 }
 
 #facts {
@@ -694,7 +692,7 @@ main {
     padding: 3em 2em;
 }
 
-#learn h1 {
+#learn h2 {
     text-align: center;
     color: #012169;
     font-size: 3.5em;
@@ -838,10 +836,6 @@ footer a:hover {
         font-size: 2.5em;
     }
 
-    #story h1 {
-        font-size: 2.2em;
-    }
-
     #learn button {
         width: 20%;
     }
@@ -925,10 +919,6 @@ footer a:hover {
 }
 
 @media (max-width:900px) {
-    #story h1 {
-        font-size: 1.7em;
-    }
-
     #drop2 h1 {
         font-size: 2.5em;
     }
@@ -1051,21 +1041,12 @@ footer a:hover {
         visibility: visible;
         pointer-events: auto;
     }
-
-    #story h1 {
-        font-size: 1.3em;
-    }
 }
 
 @media (max-width:550px) {
 
-    #learn h1 {
+    #learn h2 {
         font-size: 3em;
-    }
-
-    #story h1 {
-        width: 100%;
-        margin-left: -.5em;
     }
 
     #story h4 {
@@ -1117,11 +1098,10 @@ footer a:hover {
 
     #drop2 h1,
     #carousel h2,
-    #learn h1 {
+    #learn h2 {
         font-size: 1.5em;
     }
 
-    #story h1,
     #story a {
         font-size: .9em;
     }
@@ -1133,7 +1113,7 @@ footer a:hover {
 
     #carousel,
     .fact {
-        padding: .7em;
+        padding: .9em;
     }
 
     #cta {
