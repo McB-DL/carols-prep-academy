@@ -656,18 +656,14 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .fact {
     padding: 3.1em;
-    border-right: .5px solid white;
 }
 
-#fact4 {
-    border-right: none;
-    border-bottom: none;
-}
 
 #learn {
     height: auto;
@@ -841,9 +837,6 @@ footer a:hover {
 }
 
 @media (max-width:1131px) {
-    #fact3 {
-        border-right: none;
-    }
 
     #facts {
         justify-content: space-evenly;
@@ -851,24 +844,6 @@ footer a:hover {
 
     .fact {
         width: 33%;
-    }
-
-    #fact4 {
-        border-right: .5px solid white;
-        border-left: .5px solid white;
-
-    }
-
-    #fact3 {
-        border-bottom: .5px solid white;
-    }
-
-    #fact2 {
-        border-bottom: .5px solid white;
-    }
-
-    #fact1 {
-        border-bottom: .5px solid white;
     }
 }
 
@@ -966,13 +941,10 @@ footer a:hover {
         width: 50%;
     }
 
-    #fact3 {
+    #fact3,
+    #fact1 {
         border-right: .5px solid white;
         border-bottom: none;
-    }
-
-    #fact4 {
-        border: none;
     }
 
     #fact2 {
