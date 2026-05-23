@@ -104,11 +104,11 @@ main {
 
 @keyframes slideBackground {
     0% {
-        background-image: url('../IMAGES/11.webp');
+        background-image: url('../IMAGES/logo.png');
     }
 
     33% {
-        background-image: url('../IMAGES/11.webp');
+        background-image: url('../IMAGES/logo.png');
     }
 
     33.1% {
@@ -124,11 +124,11 @@ main {
     }
 
     66.1% {
-        background-image: url('../IMAGES/11.webp');
+        background-image: url('../IMAGES/logo.png');
     }
 
     66.2% {
-        background-image: url('../IMAGES/11.webp');
+        background-image: url('../IMAGES/logo.png');
     }
 
     100% {
